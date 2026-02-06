@@ -33,8 +33,7 @@ neiBtn.addEventListener("click", () => {
 
     // Etter 6 klikk → NEI BAK JA 😈
     if (neiKlikk >= 6) {
-        jaBtn.style.zIndex = "2";
-        neiBtn.style.zIndex = "1";
+          neiBtn.style.display = "none";
 
         neiBtn.style.position = "absolute";
         neiBtn.style.left = jaBtn.offsetLeft + "px";

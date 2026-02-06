@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: abril;
 
     background-color: #fdf2f8;
     background-image: radial-gradient(#d946ef 1px, transparent 1px);
