@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Gavetid</h1>
+        <h2>Velg en!</h2>
+
+        <div class="images">
+            <img
+                id="gave"
+                src="https://i.pinimg.com/736x/ab/d5/c3/abd5c31be1e0400f74b312bd9459d1bc.jpg"
+                alt="gave">
+        </div>
+    </div>
+
+    <!-- 👇 JavaScript MÅ være her -->
+    <script>
+        const img = document.getElementById("gave");
+
+        img.addEventListener("click", () => {
+            img.src = "https://i.pinimg.com/736x/e4/d8/0b/e4d80b4a1f89c637c10a8d25bccd0584.jpg";
+        });
+    </script>
+
+</body>
+</html>

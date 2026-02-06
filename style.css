@@ -11,7 +11,6 @@ body {
     background-size: 20px 20px;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -21,30 +20,21 @@ body {
 
 .images {
     display: flex;
-    gap: 20px;
+    flex-direction: row;   /* ← dette er nøkkelen */
+    justify-content: center;
+    align-items: center;
+    gap: 30px;             /* luft mellom bildene */
     margin-top: 20px;
 }
 
 .images img {
     max-width: 300px;
+    border-radius: 12px;
 }
 
 .buttons {
-    position: relative;
+    margin-top: 20px;
 }
-
-#jaBtn, #neiBtn {
-    position: relative;
-    background-color: rgb(176, 91, 173);
-    color: white;
-    font-size: 18px;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 5px;
-}
-
 
 .buttons input {
     background-color: rgb(176, 91, 173);
@@ -57,7 +47,6 @@ body {
     margin: 5px;
 }
 
-/* hover = nice */
 .buttons input:hover {
     background-color: rgb(150, 70, 145);
 }
