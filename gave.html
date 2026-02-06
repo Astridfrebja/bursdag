@@ -8,7 +8,7 @@
 
     <div class="container">
         <h1>Gavetid</h1>
-        <h2>Velg en!</h2>
+        <h2>Trykk på kaninen!</h2>
 
         <div class="images">
             <img
@@ -22,9 +22,14 @@
     <script>
         const img = document.getElementById("gave");
 
-        img.addEventListener("click", () => {
-            img.src = "https://i.pinimg.com/736x/e4/d8/0b/e4d80b4a1f89c637c10a8d25bccd0584.jpg";
-        });
+img.addEventListener("click", () => {
+    img.src = "bilder/kort.jpg";
+    img.classList.add("kort");
+});
+
+console.log(img.classList);
+
+
     </script>
 
 </body>
